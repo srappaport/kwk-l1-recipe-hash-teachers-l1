@@ -47,7 +47,7 @@ end
 #6: Return the number of ingredients in the `perfect_10_recipe` hash.
 def number_ingredients(perfect_10_recipe)
   perfect_10_recipe.each do |x|
-    length = x+=1
+    length+=1
   end
   return length
 end
